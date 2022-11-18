@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "CNX_SNW_SPACE_UDM",
+            "account": "fvb22061.us-east-1",
+            "username": "jhonjairo",
+            "password": "Jhones_777##",
+            "database": "UDM_OUR_FIRST_DB",
+            "warehouse": "WH_SNW_DEMO"
+        }
+    ]
+}
